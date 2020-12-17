@@ -1,0 +1,45 @@
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+body{
+  font-family: "Ubuntu", sans-serif;
+}
+.avatar{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+h2{
+  font-size: 24px;
+  margin:24px;
+}
+.titulo{
+  font-size: 80px;
+  margin: 0px;
+  font-weight: 700;
+}
+.description{
+  font-size: 16px;
+  margin: 24px;
+  font-weight: 400;
+}
+.boton{
+  background: #000000;
+  padding: 30px 40px;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration:none;
+  border-radius: 3em;
+  margin: 24px;
+}
